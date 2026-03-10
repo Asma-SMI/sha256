@@ -1,0 +1,4 @@
+com\example\signature\service\XmlDigestService.class
+com\example\signature\dto\DigestComparisonResponse.class
+com\example\signature\SignatureApplication.class
+com\example\signature\controller\DigestController.class
