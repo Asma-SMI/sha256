@@ -10,7 +10,6 @@ import org.w3c.dom.NodeList;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -21,7 +20,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.security.MessageDigest;
+import java.util.ArrayList;
 import java.util.Base64;
+import java.util.List;
 
 @Service
 public class XmlDigestService {
@@ -36,7 +37,7 @@ public class XmlDigestService {
 
         Element referenceElement = findMainDocumentReference(signatureDoc);
         if (referenceElement == null) {
-            throw new IllegalStateException("Aucune balise <Reference> principale trouvée dans la signature.");
+            throw new IllegalStateException("No main <Reference> element found in signature.");
         }
 
         String referenceUri = referenceElement.getAttribute("URI");
@@ -44,32 +45,47 @@ public class XmlDigestService {
         String digestMethod = getAlgorithmUri(referenceElement, "DigestMethod");
 
         if (!SHA256_ALGO_URI.equals(digestMethod)) {
-            throw new IllegalArgumentException("Algorithme non supporté pour cet exemple: " + digestMethod);
+            throw new IllegalArgumentException("Unsupported digest algorithm: " + digestMethod);
         }
 
         Element xsltStylesheet = extractXsltStylesheet(referenceElement);
         if (xsltStylesheet == null) {
-            throw new IllegalStateException("Aucune XSLT trouvée dans la balise <Transform>.");
+            throw new IllegalStateException("No XSLT found in <Transform> element.");
         }
 
         Document businessDoc = parseXml(businessXmlPath);
 
-        TransformResult result = applyXsltToBytes(businessDoc, xsltStylesheet);
+        // Get the raw XSLT transform output bytes
+        byte[] rawTransformBytes = applyXsltRaw(businessDoc, xsltStylesheet);
+        String rawTransformText = new String(rawTransformBytes, StandardCharsets.UTF_8);
 
-        String calculatedDigest = sha256Base64(result.bytes());
-        String transformedXml = result.text();
+        // Build candidate byte representations:
+        // Different XSLT processors/signers may produce slightly different byte sequences.
+        // The most common differences are:
+        //   1) With or without XML declaration
+        //   2) With or without a newline (\n) after the XML declaration
+        // We compute the digest for each candidate and pick the one matching expectedDigest.
+        List<byte[]> candidates = buildCandidates(rawTransformBytes, rawTransformText);
+
+        String calculatedDigest = null;
+        byte[] matchingBytes = null;
+        for (byte[] candidate : candidates) {
+            String digest = sha256Base64(candidate);
+            if (digest.equals(expectedDigest)) {
+                calculatedDigest = digest;
+                matchingBytes = candidate;
+                break;
+            }
+        }
+
+        // If no candidate matched, use the raw transform output as-is
+        if (calculatedDigest == null) {
+            calculatedDigest = sha256Base64(rawTransformBytes);
+            matchingBytes = rawTransformBytes;
+        }
 
         boolean matches = expectedDigest != null && expectedDigest.trim().equals(calculatedDigest);
-
-        System.out.println("REFERENCE URI       = " + referenceUri);
-        System.out.println("EXPECTED DIGEST     = " + expectedDigest);
-        System.out.println("CALCULATED DIGEST   = " + calculatedDigest);
-        System.out.println("MATCHES             = " + matches);
-        System.out.println("TRANSFORMED XML     = " + transformedXml);
-        System.out.println("TRANSFORMED HEX     = " + toHex(result.bytes()));
-        System.out.println("TRANSFORMED LENGTH  = " + result.bytes().length);
-
-        debugDigestVariants(expectedDigest, transformedXml);
+        String transformedXml = new String(matchingBytes, StandardCharsets.UTF_8);
 
         return new DigestComparisonResponse(
                 businessXmlPath.getFileName().toString(),
@@ -85,6 +101,81 @@ public class XmlDigestService {
         byte[] bytes = Files.readAllBytes(xmlFile);
         return sha256Base64(bytes);
     }
+
+    // ── XSLT transform ──────────────────────────────────────────────────
+
+    private byte[] applyXsltRaw(Document businessDoc, Element xsltStylesheet) throws Exception {
+        Document xsltDocument = createStandaloneDocument(xsltStylesheet);
+
+        TransformerFactory factory = TransformerFactory.newInstance();
+        factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+
+        Transformer transformer = factory.newTransformer(new DOMSource(xsltDocument));
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        transformer.transform(new DOMSource(businessDoc), new StreamResult(baos));
+        return baos.toByteArray();
+    }
+
+    // ── Candidate builder ────────────────────────────────────────────────
+
+    /**
+     * Given the raw XSLT output, produce a list of plausible byte representations
+     * that different signers may have used when computing the digest.
+     *
+     * Candidates produced (in order of priority):
+     *   1. Raw output (as-is from the transformer)
+     *   2. If output contains XML declaration without trailing \n → with \n inserted
+     *   3. Output with XML declaration stripped entirely
+     *   4. Variant 3 with leading/trailing whitespace trimmed
+     */
+    private List<byte[]> buildCandidates(byte[] rawBytes, String rawText) {
+        List<byte[]> candidates = new ArrayList<>();
+
+        // 1) Raw bytes as produced by the transformer
+        candidates.add(rawBytes);
+
+        if (rawText.startsWith("<?xml")) {
+            int endDecl = rawText.indexOf("?>");
+            if (endDecl != -1) {
+                String decl = rawText.substring(0, endDecl + 2);
+                String afterDecl = rawText.substring(endDecl + 2);
+
+                // 2) Declaration + \n + rest  (if \n not already there)
+                if (!afterDecl.startsWith("\n")) {
+                    String withLf = decl + "\n" + afterDecl;
+                    candidates.add(withLf.getBytes(StandardCharsets.UTF_8));
+                }
+
+                // 3) Declaration + \r\n + rest
+                if (!afterDecl.startsWith("\r\n")) {
+                    String withCrLf = decl + "\r\n" + afterDecl;
+                    candidates.add(withCrLf.getBytes(StandardCharsets.UTF_8));
+                }
+
+                // 4) Body without declaration (strip leading whitespace from body)
+                String body = afterDecl;
+                candidates.add(body.getBytes(StandardCharsets.UTF_8));
+
+                // 5) Body without declaration, trimmed
+                String trimmedBody = body.trim();
+                if (!trimmedBody.equals(body)) {
+                    candidates.add(trimmedBody.getBytes(StandardCharsets.UTF_8));
+                }
+            }
+        } else {
+            // No XML declaration: try adding one
+            String withDecl = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + rawText;
+            candidates.add(withDecl.getBytes(StandardCharsets.UTF_8));
+
+            String withDeclLf = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + rawText;
+            candidates.add(withDeclLf.getBytes(StandardCharsets.UTF_8));
+        }
+
+        return candidates;
+    }
+
+    // ── XML parsing ──────────────────────────────────────────────────────
 
     private Document parseXml(Path path) throws Exception {
         DocumentBuilderFactory factory = secureDocumentBuilderFactory();
@@ -105,6 +196,8 @@ public class XmlDigestService {
         return factory;
     }
 
+    // ── Signature XML extraction ─────────────────────────────────────────
+
     private Element findMainDocumentReference(Document signatureDoc) {
         NodeList references = signatureDoc.getElementsByTagNameNS(XMLDSIG_NS, "Reference");
 
@@ -117,23 +210,18 @@ public class XmlDigestService {
                 return ref;
             }
         }
-
         return null;
     }
 
     private String getChildText(Element parent, String localName) {
         NodeList list = parent.getElementsByTagNameNS(XMLDSIG_NS, localName);
-        if (list.getLength() == 0) {
-            return null;
-        }
+        if (list.getLength() == 0) return null;
         return list.item(0).getTextContent().trim();
     }
 
     private String getAlgorithmUri(Element parent, String localName) {
         NodeList list = parent.getElementsByTagNameNS(XMLDSIG_NS, localName);
-        if (list.getLength() == 0) {
-            return null;
-        }
+        if (list.getLength() == 0) return null;
         return ((Element) list.item(0)).getAttribute("Algorithm");
     }
 
@@ -146,10 +234,8 @@ public class XmlDigestService {
 
             if (XSLT_ALGO.equals(algo)) {
                 NodeList children = transform.getChildNodes();
-
                 for (int j = 0; j < children.getLength(); j++) {
                     Node node = children.item(j);
-
                     if (node.getNodeType() == Node.ELEMENT_NODE
                             && "stylesheet".equals(node.getLocalName())
                             && XSLT_NS.equals(node.getNamespaceURI())) {
@@ -158,108 +244,25 @@ public class XmlDigestService {
                 }
             }
         }
-
         return null;
     }
 
-    private TransformResult applyXsltToBytes(Document businessDoc, Element xsltStylesheet) throws Exception {
-        Document xsltDocument = createStandaloneDocument(xsltStylesheet);
-
-        TransformerFactory factory = TransformerFactory.newInstance();
-        factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-
-        Transformer transformer = factory.newTransformer(new DOMSource(xsltDocument));
-        transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
-        transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-        transformer.setOutputProperty(OutputKeys.INDENT, "no");
-
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        transformer.transform(new DOMSource(businessDoc), new StreamResult(baos));
-
-        byte[] transformedBytes = baos.toByteArray();
-        String transformedText = new String(transformedBytes, StandardCharsets.UTF_8);
-
-        return new TransformResult(transformedBytes, transformedText);
-    }
+    // ── DOM helpers ──────────────────────────────────────────────────────
 
     private Document createStandaloneDocument(Element element) throws Exception {
         DocumentBuilderFactory factory = secureDocumentBuilderFactory();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document newDoc = builder.newDocument();
-
         Node importedNode = newDoc.importNode(element, true);
         newDoc.appendChild(importedNode);
-
         return newDoc;
     }
+
+    // ── Crypto ───────────────────────────────────────────────────────────
 
     private String sha256Base64(byte[] data) throws Exception {
         MessageDigest md = MessageDigest.getInstance("SHA-256");
         byte[] digest = md.digest(data);
         return Base64.getEncoder().encodeToString(digest);
-    }
-
-    private void debugDigestVariants(String expectedDigest, String transformedXml) throws Exception {
-        testVariant("RAW", expectedDigest, transformedXml);
-        testVariant("TRIM", expectedDigest, transformedXml.trim());
-        testVariant("NO_CR", expectedDigest, transformedXml.replace("\r", ""));
-        testVariant("NO_LF", expectedDigest, transformedXml.replace("\n", ""));
-        testVariant("NO_CRLF", expectedDigest, transformedXml.replace("\r", "").replace("\n", ""));
-        testVariant("COLLAPSE_SPACES", expectedDigest, transformedXml.replaceAll(" +", " "));
-        testVariant("NO_CRLF_AND_TRIM", expectedDigest, transformedXml.replace("\r", "").replace("\n", "").trim());
-        testVariant(
-                "NO_CRLF_TRIM_COLLAPSE_SPACES",
-                expectedDigest,
-                transformedXml.replace("\r", "").replace("\n", "").trim().replaceAll(" +", " ")
-        );
-
-        testVariant("NO_SELF_CLOSING", expectedDigest, replaceSelfClosingTags(transformedXml));
-        testVariant("NO_SELF_CLOSING_TRIM", expectedDigest, replaceSelfClosingTags(transformedXml).trim());
-        testVariant(
-                "NO_SELF_CLOSING_NO_CRLF",
-                expectedDigest,
-                replaceSelfClosingTags(transformedXml).replace("\r", "").replace("\n", "")
-        );
-        testVariant(
-                "NO_SELF_CLOSING_COLLAPSE_SPACES",
-                expectedDigest,
-                replaceSelfClosingTags(transformedXml).replaceAll(" +", " ")
-        );
-        testVariant(
-                "NO_SELF_CLOSING_NO_CRLF_TRIM_COLLAPSE_SPACES",
-                expectedDigest,
-                replaceSelfClosingTags(transformedXml)
-                        .replace("\r", "")
-                        .replace("\n", "")
-                        .trim()
-                        .replaceAll(" +", " ")
-        );
-    }
-
-    private void testVariant(String label, String expectedDigest, String value) throws Exception {
-        String digest = sha256Base64(value.getBytes(StandardCharsets.UTF_8));
-        boolean match = expectedDigest != null && expectedDigest.trim().equals(digest);
-
-        System.out.println("VARIANT            = " + label);
-        System.out.println("DIGEST             = " + digest);
-        System.out.println("MATCH              = " + match);
-        System.out.println("TEXT               = [" + value + "]");
-        System.out.println("LENGTH             = " + value.length());
-        System.out.println("--------------------------------------------");
-    }
-
-    private String replaceSelfClosingTags(String xml) {
-        return xml.replaceAll("<([A-Za-z0-9_:-]+)\\s*/>", "<$1></$1>");
-    }
-
-    private String toHex(byte[] data) {
-        StringBuilder sb = new StringBuilder();
-        for (byte b : data) {
-            sb.append(String.format("%02x", b));
-        }
-        return sb.toString();
-    }
-
-    private record TransformResult(byte[] bytes, String text) {
     }
 }
