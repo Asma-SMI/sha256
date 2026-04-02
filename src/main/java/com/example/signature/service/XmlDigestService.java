@@ -14,6 +14,7 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
@@ -32,7 +33,17 @@ public class XmlDigestService {
     private static final String XSLT_ALGO = "http://www.w3.org/TR/1999/REC-xslt-19991116";
     private static final String SHA256_ALGO_URI = "http://www.w3.org/2001/04/xmlenc#sha256";
 
-    public DigestComparisonResponse compareDigest(Path businessXmlPath, Path signatureXmlPath) throws Exception {
+    /**
+     * Compare le digest entre :
+     * - le XML métier reçu depuis IMAIL.BODY
+     * - le fichier de signature XML lu depuis le serveur
+     */
+    public DigestComparisonResponse compareDigest(String bodyXml, Path signatureXmlPath) throws Exception {
+        if (bodyXml == null || bodyXml.isBlank()) {
+            throw new IllegalArgumentException("IMAIL.BODY is empty.");
+        }
+
+        // 1) Parse de la signature
         Document signatureDoc = parseXml(signatureXmlPath);
 
         Element referenceElement = findMainDocumentReference(signatureDoc);
@@ -53,22 +64,22 @@ public class XmlDigestService {
             throw new IllegalStateException("No XSLT found in <Transform> element.");
         }
 
-        Document businessDoc = parseXml(businessXmlPath);
+        // 2) Parse du XML métier depuis le BODY
+        Document businessDoc = parseXmlFromString(bodyXml);
 
-        // Get the raw XSLT transform output bytes
+        // 3) Nom logique du document, reconstruit depuis NUMERO_DEMANDE
+        String providedFileName = extractProvidedFileName(businessDoc);
+
+        // 4) Application XSLT sur le XML métier
         byte[] rawTransformBytes = applyXsltRaw(businessDoc, xsltStylesheet);
         String rawTransformText = new String(rawTransformBytes, StandardCharsets.UTF_8);
 
-        // Build candidate byte representations:
-        // Different XSLT processors/signers may produce slightly different byte sequences.
-        // The most common differences are:
-        //   1) With or without XML declaration
-        //   2) With or without a newline (\n) after the XML declaration
-        // We compute the digest for each candidate and pick the one matching expectedDigest.
+        // 5) Génération de plusieurs variantes possibles
         List<byte[]> candidates = buildCandidates(rawTransformBytes, rawTransformText);
 
         String calculatedDigest = null;
         byte[] matchingBytes = null;
+
         for (byte[] candidate : candidates) {
             String digest = sha256Base64(candidate);
             if (digest.equals(expectedDigest)) {
@@ -78,7 +89,7 @@ public class XmlDigestService {
             }
         }
 
-        // If no candidate matched, use the raw transform output as-is
+        // Si aucune variante ne matche, on garde le brut
         if (calculatedDigest == null) {
             calculatedDigest = sha256Base64(rawTransformBytes);
             matchingBytes = rawTransformBytes;
@@ -88,7 +99,7 @@ public class XmlDigestService {
         String transformedXml = new String(matchingBytes, StandardCharsets.UTF_8);
 
         return new DigestComparisonResponse(
-                businessXmlPath.getFileName().toString(),
+                providedFileName,
                 referenceUri,
                 expectedDigest,
                 calculatedDigest,
@@ -97,12 +108,27 @@ public class XmlDigestService {
         );
     }
 
+    /**
+     * Digest brut d'un fichier XML sur disque.
+     */
     public String calculateRawFileDigest(Path xmlFile) throws Exception {
         byte[] bytes = Files.readAllBytes(xmlFile);
         return sha256Base64(bytes);
     }
 
-    // ── XSLT transform ──────────────────────────────────────────────────
+    /**
+     * Digest brut d'un XML contenu dans une String.
+     */
+    public String calculateRawBodyDigest(String bodyXml) throws Exception {
+        if (bodyXml == null || bodyXml.isBlank()) {
+            throw new IllegalArgumentException("IMAIL.BODY is empty.");
+        }
+        return sha256Base64(bodyXml.getBytes(StandardCharsets.UTF_8));
+    }
+
+    // ─────────────────────────────────────────────────────────
+    // XSLT transform
+    // ─────────────────────────────────────────────────────────
 
     private byte[] applyXsltRaw(Document businessDoc, Element xsltStylesheet) throws Exception {
         Document xsltDocument = createStandaloneDocument(xsltStylesheet);
@@ -117,22 +143,21 @@ public class XmlDigestService {
         return baos.toByteArray();
     }
 
-    // ── Candidate builder ────────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────
+    // Candidate builder
+    // ─────────────────────────────────────────────────────────
 
     /**
-     * Given the raw XSLT output, produce a list of plausible byte representations
-     * that different signers may have used when computing the digest.
-     *
-     * Candidates produced (in order of priority):
-     *   1. Raw output (as-is from the transformer)
-     *   2. If output contains XML declaration without trailing \n → with \n inserted
-     *   3. Output with XML declaration stripped entirely
-     *   4. Variant 3 with leading/trailing whitespace trimmed
+     * Produit plusieurs représentations plausibles des octets transformés.
+     * L'idée est de couvrir les écarts classiques :
+     * - présence / absence de déclaration XML
+     * - \n / \r\n après déclaration
+     * - trim éventuel
      */
     private List<byte[]> buildCandidates(byte[] rawBytes, String rawText) {
         List<byte[]> candidates = new ArrayList<>();
 
-        // 1) Raw bytes as produced by the transformer
+        // 1) Brut
         candidates.add(rawBytes);
 
         if (rawText.startsWith("<?xml")) {
@@ -141,33 +166,33 @@ public class XmlDigestService {
                 String decl = rawText.substring(0, endDecl + 2);
                 String afterDecl = rawText.substring(endDecl + 2);
 
-                // 2) Declaration + \n + rest  (if \n not already there)
+                // 2) Déclaration + LF
                 if (!afterDecl.startsWith("\n")) {
                     String withLf = decl + "\n" + afterDecl;
                     candidates.add(withLf.getBytes(StandardCharsets.UTF_8));
                 }
 
-                // 3) Declaration + \r\n + rest
+                // 3) Déclaration + CRLF
                 if (!afterDecl.startsWith("\r\n")) {
                     String withCrLf = decl + "\r\n" + afterDecl;
                     candidates.add(withCrLf.getBytes(StandardCharsets.UTF_8));
                 }
 
-                // 4) Body without declaration (strip leading whitespace from body)
-                String body = afterDecl;
-                candidates.add(body.getBytes(StandardCharsets.UTF_8));
+                // 4) Sans déclaration
+                candidates.add(afterDecl.getBytes(StandardCharsets.UTF_8));
 
-                // 5) Body without declaration, trimmed
-                String trimmedBody = body.trim();
-                if (!trimmedBody.equals(body)) {
-                    candidates.add(trimmedBody.getBytes(StandardCharsets.UTF_8));
+                // 5) Sans déclaration + trim
+                String trimmed = afterDecl.trim();
+                if (!trimmed.equals(afterDecl)) {
+                    candidates.add(trimmed.getBytes(StandardCharsets.UTF_8));
                 }
             }
         } else {
-            // No XML declaration: try adding one
+            // 6) Ajouter une déclaration XML
             String withDecl = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + rawText;
             candidates.add(withDecl.getBytes(StandardCharsets.UTF_8));
 
+            // 7) Ajouter déclaration + LF
             String withDeclLf = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + rawText;
             candidates.add(withDeclLf.getBytes(StandardCharsets.UTF_8));
         }
@@ -175,13 +200,24 @@ public class XmlDigestService {
         return candidates;
     }
 
-    // ── XML parsing ──────────────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────
+    // XML parsing
+    // ─────────────────────────────────────────────────────────
 
     private Document parseXml(Path path) throws Exception {
         DocumentBuilderFactory factory = secureDocumentBuilderFactory();
         DocumentBuilder builder = factory.newDocumentBuilder();
 
         try (InputStream is = Files.newInputStream(path)) {
+            return builder.parse(is);
+        }
+    }
+
+    private Document parseXmlFromString(String xmlContent) throws Exception {
+        DocumentBuilderFactory factory = secureDocumentBuilderFactory();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+
+        try (InputStream is = new ByteArrayInputStream(xmlContent.getBytes(StandardCharsets.UTF_8))) {
             return builder.parse(is);
         }
     }
@@ -196,7 +232,9 @@ public class XmlDigestService {
         return factory;
     }
 
-    // ── Signature XML extraction ─────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────
+    // Signature XML extraction
+    // ─────────────────────────────────────────────────────────
 
     private Element findMainDocumentReference(Document signatureDoc) {
         NodeList references = signatureDoc.getElementsByTagNameNS(XMLDSIG_NS, "Reference");
@@ -215,13 +253,17 @@ public class XmlDigestService {
 
     private String getChildText(Element parent, String localName) {
         NodeList list = parent.getElementsByTagNameNS(XMLDSIG_NS, localName);
-        if (list.getLength() == 0) return null;
+        if (list.getLength() == 0) {
+            return null;
+        }
         return list.item(0).getTextContent().trim();
     }
 
     private String getAlgorithmUri(Element parent, String localName) {
         NodeList list = parent.getElementsByTagNameNS(XMLDSIG_NS, localName);
-        if (list.getLength() == 0) return null;
+        if (list.getLength() == 0) {
+            return null;
+        }
         return ((Element) list.item(0)).getAttribute("Algorithm");
     }
 
@@ -247,7 +289,32 @@ public class XmlDigestService {
         return null;
     }
 
-    // ── DOM helpers ──────────────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────
+    // Helpers métier
+    // ─────────────────────────────────────────────────────────
+
+    /**
+     * Reconstruit le nom logique du fichier à partir de NUMERO_DEMANDE.
+     * Exemple : D16469OC1.xml
+     */
+    private String extractProvidedFileName(Document businessDoc) {
+        NodeList list = businessDoc.getElementsByTagName("NUMERO_DEMANDE");
+
+        if (list.getLength() == 0) {
+            return "imail-body.xml";
+        }
+
+        String numeroDemande = list.item(0).getTextContent();
+        if (numeroDemande == null || numeroDemande.isBlank()) {
+            return "imail-body.xml";
+        }
+
+        return numeroDemande.trim() + ".xml";
+    }
+
+    // ─────────────────────────────────────────────────────────
+    // DOM helpers
+    // ─────────────────────────────────────────────────────────
 
     private Document createStandaloneDocument(Element element) throws Exception {
         DocumentBuilderFactory factory = secureDocumentBuilderFactory();
@@ -258,7 +325,9 @@ public class XmlDigestService {
         return newDoc;
     }
 
-    // ── Crypto ───────────────────────────────────────────────────────────
+    // ─────────────────────────────────────────────────────────
+    // Crypto
+    // ─────────────────────────────────────────────────────────
 
     private String sha256Base64(byte[] data) throws Exception {
         MessageDigest md = MessageDigest.getInstance("SHA-256");

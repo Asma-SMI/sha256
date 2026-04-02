@@ -1,6 +1,7 @@
 package com.example.signature.controller;
 
 import com.example.signature.dto.DigestComparisonResponse;
+import com.example.signature.service.ImailSignatureService;
 import com.example.signature.service.XmlDigestService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,10 +16,13 @@ public class DigestController {
 
 
     private final XmlDigestService service;
+    private final ImailSignatureService imailService;
 
-    public DigestController(XmlDigestService service) {
+    public DigestController(ImailSignatureService imailService,XmlDigestService service) {
+        this.imailService = imailService;
         this.service = service;
     }
+
 
     @GetMapping("/raw")
     public String rawDigest(@RequestParam String file) throws Exception {
@@ -27,9 +31,14 @@ public class DigestController {
 
     @GetMapping("/compare")
     public DigestComparisonResponse compareDigest(
-            @RequestParam String businessXmlPath,
+            @RequestParam Long idImail,
             @RequestParam String signatureXmlPath
     ) throws Exception {
-        return service.compareDigest(Path.of(businessXmlPath), Path.of(signatureXmlPath));
+        return imailService.compareDigestFromImail(
+                idImail,
+                Path.of(signatureXmlPath)
+        );
     }
+
+
 }
