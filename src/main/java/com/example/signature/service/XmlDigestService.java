@@ -108,6 +108,8 @@ public class XmlDigestService {
         );
     }
 
+
+
     /**
      * Digest brut d'un fichier XML sur disque.
      */
