@@ -3,12 +3,10 @@ package com.example.signature.controller;
 import com.example.signature.dto.DigestComparisonResponse;
 import com.example.signature.service.ImailSignatureService;
 import com.example.signature.service.XmlDigestService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.nio.file.Path;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/digest")
@@ -38,6 +36,11 @@ public class DigestController {
                 idImail,
                 Path.of(signatureXmlPath)
         );
+    }
+
+    @PostMapping("/compare-auto")
+    public List<DigestComparisonResponse> compareDigestAuto() throws Exception {
+        return imailService.comparePendingSignatures();
     }
 
 

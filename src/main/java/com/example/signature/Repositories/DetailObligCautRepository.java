@@ -7,9 +7,13 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+import java.util.Optional;
+
 public interface DetailObligCautRepository  extends JpaRepository<DetailObligCaut, Long> {
     @Modifying
     @Query("update DetailObligCaut d set d.status = :status where d.idImail = :idImail")
     int updateStatusByIdImail(@Param("idImail") Long idImail,
                               @Param("status") String status);
+
+    Optional<DetailObligCaut> findByNumMessTtnAndStatus(String numMessTtn, String status);
 }

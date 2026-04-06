@@ -1,0 +1,31 @@
+<configuration>
+
+    <springProperty scope="context" name="LOG_DIR" source="app.log.dir"/>
+
+    <!-- Appender fichier -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <!-- Fichier courant -->
+        <file>${LOG_DIR}/app.log</file>
+
+        <!-- Rotation quotidienne -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_DIR}/archive/app.%d{yyyy-MM-dd}.log</fileNamePattern>
+        </rollingPolicy>
+
+        <!-- Format -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+
+    </appender>
+
+    <!-- Logs de ton application -->
+    <logger name="com.example.signature" level="INFO"/>
+
+    <!-- Logs globaux -->
+    <root level="ERROR">
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>
