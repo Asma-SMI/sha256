@@ -1,0 +1,1665 @@
+2026-04-10 13:43:54.509 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 30464 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 13:43:54.515 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 13:44:02.001 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 7.956 seconds (process running for 8.302)
+2026-04-10 13:45:00.019 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:45:00.782 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:46:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:46:00.613 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:47:02.840 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 30740 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 13:47:02.842 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 13:47:08.887 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.signature.controller.ObligCautController required a bean of type 'com.example.signature.service.ObligCautService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.signature.service.ObligCautService' in your configuration.
+
+2026-04-10 13:48:23.688 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 21496 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 13:48:23.690 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 13:48:30.877 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 7.621 seconds (process running for 7.908)
+2026-04-10 13:49:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:49:00.717 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:50:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:50:00.521 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:50:38.956 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 32644 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 13:50:38.959 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 13:50:45.493 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 6.967 seconds (process running for 7.258)
+2026-04-10 13:51:00.024 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:51:00.765 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:52:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:52:00.883 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:53:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:53:00.404 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:54:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:54:00.396 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:55:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:55:01.179 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:55:42.266 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 8600 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 13:55:42.267 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 13:55:48.472 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 6.617 seconds (process running for 6.881)
+2026-04-10 13:56:00.021 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:56:00.486 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:57:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:57:00.373 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:58:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:58:00.389 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 13:59:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 13:59:00.417 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:00:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:00:00.388 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:01:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:01:00.383 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:02:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:02:00.699 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:03:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:03:00.523 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:04:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:04:00.370 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:05:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:05:00.362 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:06:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:06:00.449 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:07:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:07:00.559 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:08:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:08:00.446 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:09:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:09:00.497 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:10:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:10:00.415 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:11:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:11:00.606 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:12:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:12:00.444 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:13:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:13:00.397 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:14:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:14:00.428 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:15:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:15:00.366 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:16:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:16:00.523 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:17:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:17:00.554 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:18:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:18:00.551 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:19:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:19:00.834 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:20:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:20:00.419 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:21:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:21:00.463 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:22:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:22:00.393 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:23:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:23:00.439 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:24:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:24:00.385 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:25:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:25:01.340 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:26:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:26:00.387 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:27:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:27:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:28:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:28:00.361 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:29:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:29:00.367 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:30:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:30:00.351 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:31:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:31:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:32:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:32:00.392 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:33:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:33:00.366 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:34:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:34:00.356 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:35:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:35:00.340 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:36:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:36:00.348 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:37:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:37:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:38:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:38:00.348 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:39:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:39:00.440 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:40:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:40:00.365 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:41:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:41:00.365 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:42:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:42:00.391 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:43:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:43:00.534 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:44:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:44:00.338 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:45:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:45:00.489 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:46:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:46:00.371 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:47:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:47:00.351 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:48:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:48:00.405 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:49:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:49:00.381 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:50:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:50:00.401 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:51:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:51:00.346 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:52:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:52:00.401 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:53:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:53:00.568 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:54:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:54:00.373 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:55:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:55:00.370 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:56:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:56:00.353 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:57:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:57:00.400 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:58:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:58:00.402 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 14:59:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 14:59:00.422 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:00:00.028 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:00:00.373 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:01:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:01:00.369 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:02:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:02:00.344 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:03:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:03:00.478 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:04:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:04:00.475 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:05:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:05:00.492 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:06:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:06:00.401 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:07:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:07:00.362 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:08:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:08:00.350 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:09:00.022 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:09:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:10:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:10:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:11:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:11:00.348 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:12:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:12:00.410 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:13:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:13:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:14:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:14:00.357 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:15:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:15:00.364 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:16:00.019 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:16:00.365 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:17:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:17:00.360 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:18:00.017 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:18:00.368 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:19:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:19:00.398 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:20:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:20:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:21:00.020 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:21:00.367 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:22:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:22:00.355 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:23:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:23:00.344 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:24:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:24:00.341 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:25:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:25:00.348 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:26:00.020 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:26:00.370 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:27:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:27:00.378 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:28:00.018 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:28:00.385 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:29:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:29:00.354 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:30:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:30:00.394 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:31:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:31:00.380 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:32:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:32:00.425 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:33:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:33:00.375 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:34:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:34:00.492 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:35:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:35:00.373 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:36:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:36:00.368 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:37:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:37:00.366 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:38:00.018 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:38:00.450 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:39:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:39:00.462 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:40:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:40:00.405 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:41:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:41:00.441 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:42:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:42:00.369 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:43:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:43:00.354 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:44:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:44:00.375 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:45:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:45:00.417 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:46:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:46:00.380 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:47:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:47:00.410 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:48:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:48:00.435 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:48:59.999 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:49:00.353 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:50:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:50:00.497 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:51:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:51:00.368 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:52:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:52:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:53:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:53:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:54:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:54:00.365 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:55:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:55:00.362 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:56:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:56:00.387 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:57:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:57:00.342 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:58:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:58:00.395 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 15:59:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 15:59:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:00:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:00:00.426 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:01:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:01:00.364 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:02:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:02:00.364 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:03:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:03:00.363 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:04:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:04:00.352 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:05:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:05:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:06:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:06:00.346 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:07:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:07:00.344 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:08:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:08:00.335 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:09:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:09:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:10:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:10:00.342 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:11:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:11:00.344 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:12:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:12:00.336 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:13:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:13:00.332 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:14:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:14:00.342 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:15:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:15:00.372 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:16:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:16:00.329 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:17:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:17:00.348 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:18:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:18:00.342 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:19:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:19:00.353 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:20:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:20:00.363 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:21:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:21:00.395 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:22:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:22:00.422 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:22:12.605 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 24776 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:22:12.607 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:22:19.209 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 7.035 seconds (process running for 7.312)
+2026-04-10 16:23:00.018 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:23:00.521 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:23:26.492 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 32384 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:23:26.494 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:23:32.452 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 6.366 seconds (process running for 6.624)
+2026-04-10 16:24:00.019 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:24:00.464 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:25:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:25:00.380 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:26:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:26:00.364 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:27:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:27:00.430 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:28:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:28:00.363 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:29:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:29:00.374 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:29:20.634 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:29:20.706 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 22868 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:29:20.708 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:29:21.772 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:29:21.857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:29:22.761 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:29:22.777 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:29:22.780 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:29:22.780 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:29:22.912 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:29:22.915 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2135 ms
+2026-04-10 16:29:23.317 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:29:23.429 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:29:23.485 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:29:25.260 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:29:25.291 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:29:26.155 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@38e46765
+2026-04-10 16:29:26.159 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:29:27.802 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:29:27.806 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:29:28.269 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:29:30.748 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:29:30.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:29:30.871 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 10.904 seconds (process running for 11.353)
+2026-04-10 16:29:50.550 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:29:50.550 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:29:50.551 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 16:30:00.017 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:30:00.620 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:31:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:31:00.408 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:32:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:32:00.390 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:32:52.779 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:32:52.781 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 16:32:53.247 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 16:32:56.651 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:32:56.706 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 21016 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:32:56.708 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:32:57.421 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:32:57.487 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:32:58.074 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:32:58.082 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:32:58.085 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:32:58.085 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:32:58.153 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:32:58.154 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1397 ms
+2026-04-10 16:32:58.432 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:32:58.530 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:32:58.562 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:32:59.364 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:32:59.385 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:33:00.136 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@37c87fcc
+2026-04-10 16:33:00.138 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:33:01.476 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:33:01.478 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:33:01.720 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:33:03.194 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:33:03.244 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:33:03.269 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 7.001 seconds (process running for 7.278)
+2026-04-10 16:33:06.423 [http-nio-8075-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:33:06.424 [http-nio-8075-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:33:06.425 [http-nio-8075-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 16:33:07.619 [http-nio-8075-exec-1] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:216)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:80)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:34:00.035 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:34:00.543 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:34:36.560 [http-nio-8075-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-04-10 16:34:41.196 [http-nio-8075-exec-6] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:216)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:80)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:35:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:35:00.399 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:36:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:36:00.596 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:37:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:37:00.568 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:37:44.832 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:37:44.835 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 16:37:45.293 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 16:37:47.727 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:37:47.787 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 8968 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:37:47.788 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:37:48.793 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:37:48.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:37:49.795 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:37:49.808 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:37:49.811 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:37:49.812 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:37:49.900 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:37:49.902 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2048 ms
+2026-04-10 16:37:50.336 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:37:50.471 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:37:50.524 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:37:52.023 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:37:52.070 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:37:53.677 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4fc3529
+2026-04-10 16:37:53.681 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:37:54.962 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:37:54.964 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:37:55.315 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:37:56.774 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:37:56.822 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:37:56.856 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 9.623 seconds (process running for 10.043)
+2026-04-10 16:38:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:38:00.652 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:38:00.759 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:38:00.759 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:38:00.761 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 16:38:01.059 [http-nio-8075-exec-2] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:216)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:80)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:39:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:39:00.454 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:40:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:40:00.477 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:41:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:41:00.383 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:42:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:42:00.375 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:42:24.080 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:42:24.081 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 16:42:24.564 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 16:42:27.971 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:42:28.010 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 24620 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:42:28.010 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:42:28.657 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:42:28.739 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:42:29.360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:42:29.370 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:42:29.372 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:42:29.372 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:42:29.431 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:42:29.432 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1374 ms
+2026-04-10 16:42:29.687 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:42:29.741 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:42:29.770 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:42:30.603 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:42:30.625 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:42:31.359 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@d13379e
+2026-04-10 16:42:31.360 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:42:32.377 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:42:32.379 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:42:32.612 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:42:33.778 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:42:33.813 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:42:33.834 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 6.214 seconds (process running for 6.479)
+2026-04-10 16:42:37.157 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:42:37.157 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:42:37.158 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 16:42:37.475 [http-nio-8075-exec-2] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:216)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:81)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:43:00.021 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:43:00.510 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:44:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:44:00.465 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:45:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:45:00.613 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:46:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:46:00.429 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:47:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:47:00.538 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:47:52.860 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:47:52.862 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 16:47:53.454 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 16:47:57.609 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:47:57.681 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 18860 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:47:57.682 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:47:58.561 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:47:58.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:47:59.483 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:47:59.494 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:47:59.497 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:47:59.497 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:47:59.574 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:47:59.576 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1826 ms
+2026-04-10 16:48:00.162 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:48:00.330 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:48:00.377 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:48:01.425 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:48:01.444 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:48:02.166 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7c8df667
+2026-04-10 16:48:02.169 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:48:03.224 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:48:03.226 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:48:03.543 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:48:04.944 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:48:05.011 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:48:05.053 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 7.969 seconds (process running for 8.334)
+2026-04-10 16:48:08.520 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:48:08.520 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:48:08.522 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-10 16:48:08.828 [http-nio-8075-exec-2] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.IllegalStateException: keystorePath est NULL
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:86)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:49:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:49:00.682 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:49:34.030 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:49:34.031 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 16:49:34.465 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 16:49:38.653 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:49:38.737 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 31456 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:49:38.738 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:49:39.635 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:49:39.715 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:49:40.455 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:49:40.462 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:49:40.463 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:49:40.464 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:49:40.524 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:49:40.525 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1717 ms
+2026-04-10 16:49:40.994 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:49:41.091 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:49:41.140 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:49:42.327 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:49:42.350 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:49:43.117 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@ca2be53
+2026-04-10 16:49:43.120 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:49:44.226 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:49:44.229 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:49:44.615 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:49:46.257 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:49:46.313 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:49:46.345 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 8.226 seconds (process running for 8.598)
+2026-04-10 16:49:51.121 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:49:51.122 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:49:51.124 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 16:49:51.408 [http-nio-8075-exec-2] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.IllegalStateException: keystorePath est NULL
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:86)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:50:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:50:00.538 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:51:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:51:00.367 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:51:43.714 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:51:43.716 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 16:51:44.286 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 16:51:47.450 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:51:47.516 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 28212 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:51:47.517 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:51:48.514 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:51:48.591 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:51:49.665 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:51:49.696 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:51:49.699 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:51:49.699 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:51:49.795 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:51:49.798 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2210 ms
+2026-04-10 16:51:50.312 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:51:50.407 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:51:50.448 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:51:51.720 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:51:51.743 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:52:33.424 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 16:52:33.463 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 14440 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 16:52:33.464 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 16:52:34.136 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 16:52:34.196 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2026-04-10 16:52:34.761 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 16:52:34.768 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:52:34.769 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 16:52:34.770 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 16:52:34.824 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 16:52:34.826 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1318 ms
+2026-04-10 16:52:35.171 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 16:52:35.271 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 16:52:35.310 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 16:52:36.058 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 16:52:36.075 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 16:53:09.572 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@192f5f39
+2026-04-10 16:53:09.574 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 16:53:11.142 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 16:53:11.145 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 16:53:11.383 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 16:53:12.407 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 16:53:12.446 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 16:53:12.470 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 39.397 seconds (process running for 39.67)
+2026-04-10 16:53:25.634 [http-nio-8075-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 16:53:25.634 [http-nio-8075-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 16:53:25.637 [http-nio-8075-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-04-10 16:53:25.943 [http-nio-8075-exec-1] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.lang.IllegalStateException: Fichier keystore introuvable : C:/tempOC/keystore/signature.p12
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:90)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:54:00.017 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:54:00.489 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:54:24.839 [http-nio-8075-exec-4] ERROR c.e.s.controller.ObligCautController - Erreur generate numDem=D33824OC1
+java.io.IOException: Tag number over 30 is not supported
+	at java.base/sun.security.util.DerValue.<init>(DerValue.java:442)
+	at java.base/sun.security.util.DerValue.<init>(DerValue.java:487)
+	at java.base/sun.security.pkcs12.PKCS12KeyStore.engineLoad(PKCS12KeyStore.java:2012)
+	at java.base/sun.security.util.KeyStoreDelegator.engineLoad(KeyStoreDelegator.java:221)
+	at java.base/java.security.KeyStore.load(KeyStore.java:1473)
+	at com.example.signature.service.ObligCautService.loadKeyMaterial(ObligCautService.java:96)
+	at com.example.signature.service.ObligCautService.generateXmlFile(ObligCautService.java:50)
+	at com.example.signature.controller.ObligCautController.generate(ObligCautController.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2026-04-10 16:55:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:55:00.828 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:56:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:56:00.441 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:57:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:57:00.385 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:58:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:58:00.401 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 16:59:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 16:59:00.410 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:00:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:00:00.404 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:01:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:01:00.659 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:02:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:02:00.402 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:03:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:03:00.419 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:04:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:04:00.390 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:05:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:05:00.370 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:06:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:06:00.368 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:07:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:07:00.635 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:08:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:08:00.403 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:09:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:09:00.788 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:10:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:10:00.421 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:11:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:11:00.375 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:12:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:12:01.131 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:12:05.048 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 17:12:05.050 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 17:12:13.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 17:12:19.579 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 17:12:19.721 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 22104 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 17:12:19.724 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 17:12:20.989 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 17:12:21.087 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2026-04-10 17:12:22.229 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 17:12:22.242 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 17:12:22.245 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 17:12:22.246 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 17:12:22.341 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 17:12:22.342 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2495 ms
+2026-04-10 17:12:22.761 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 17:12:22.843 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 17:12:22.874 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 17:12:23.936 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 17:12:23.956 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 17:15:06.405 [main] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLRecoverableException: Erreur d'E/S: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte, Authentication lapse 0 ms.
+	at oracle.jdbc.driver.T4CConnection.handleLogonIOException(T4CConnection.java:935)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:700)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1047)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:89)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:732)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:648)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.signature.SignatureApplication.main(SignatureApplication.java:13)
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte, Authentication lapse 0 ms.
+	at oracle.jdbc.driver.T4CConnection.handleLogonIOException(T4CConnection.java:930)
+	... 51 common frames omitted
+Caused by: java.io.IOException: Une connexion établie a été abandonnée par un logiciel de votre ordinateur hôte
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:330)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:296)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:259)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:417)
+	at oracle.net.nt.TimeoutSocketChannel.read(TimeoutSocketChannel.java:415)
+	at oracle.net.ns.NSProtocolNIO.doSocketRead(NSProtocolNIO.java:1127)
+	at oracle.net.ns.NIOPacket.readHeader(NIOPacket.java:266)
+	at oracle.net.ns.NIOPacket.readPacketFromSocketChannel(NIOPacket.java:198)
+	at oracle.net.ns.NIOPacket.readFromSocketChannel(NIOPacket.java:140)
+	at oracle.net.ns.NIOPacket.readFromSocketChannel(NIOPacket.java:113)
+	at oracle.net.ns.NIONSDataChannel.readDataFromSocketChannel(NIONSDataChannel.java:97)
+	at oracle.jdbc.driver.T4CMAREngineNIO.prepareForUnmarshall(T4CMAREngineNIO.java:833)
+	at oracle.jdbc.driver.T4CMAREngineNIO.unmarshalUB1(T4CMAREngineNIO.java:486)
+	at oracle.jdbc.driver.T4C8TTIdty.receive(T4C8TTIdty.java:850)
+	at oracle.jdbc.driver.T4C8TTIdty.doRPC(T4C8TTIdty.java:722)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:2481)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:656)
+	... 50 common frames omitted
+2026-04-10 17:15:06.409 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.signature.SignatureApplication.main(SignatureApplication.java:13)
+2026-04-10 17:15:06.410 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-04-10 17:15:06.410 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2026-04-10 17:15:06.414 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-10 17:15:06.426 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-10 17:15:06.447 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.signature.SignatureApplication.main(SignatureApplication.java:13)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:143)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:348)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 31 common frames omitted
+2026-04-10 17:15:16.243 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 17:15:16.290 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 29580 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 17:15:16.291 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 17:15:16.977 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 17:15:17.043 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2026-04-10 17:15:17.694 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 17:15:17.701 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 17:15:17.703 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 17:15:17.703 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 17:15:17.753 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 17:15:17.753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1402 ms
+2026-04-10 17:15:18.129 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 17:15:18.268 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 17:15:18.296 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 17:15:19.423 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 17:15:19.456 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 17:15:20.797 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@70697478
+2026-04-10 17:15:20.799 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 17:15:22.305 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 17:15:22.308 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 17:15:22.561 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 17:15:23.570 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 17:15:23.610 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 17:15:23.633 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 7.758 seconds (process running for 8.026)
+2026-04-10 17:15:29.194 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 17:15:29.194 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 17:15:29.195 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 17:16:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:16:01.290 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:17:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:17:00.678 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:18:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:18:00.654 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:19:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:19:00.738 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:20:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:20:00.816 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:21:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:21:00.875 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:22:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:22:00.782 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:23:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:23:00.800 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:24:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:24:00.749 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:25:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:25:00.683 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:26:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:26:00.777 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:27:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:27:00.664 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:28:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:28:00.818 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:29:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:29:00.731 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:30:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:30:00.746 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:31:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:31:00.732 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:32:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:32:00.731 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:33:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:33:00.742 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:34:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:34:00.735 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:35:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:35:00.731 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:36:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:36:00.731 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:37:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:37:00.716 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:38:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:38:00.716 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:39:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:39:00.742 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:40:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:40:00.779 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:41:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:41:00.730 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:42:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:42:00.731 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:43:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:43:00.699 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:44:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:44:00.013 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@70697478 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.015 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@29c1d2da (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7eae79dc (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@666cc53 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1d626191 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@7f2fdce1 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@eccd3a2 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4fee839 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.016 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2c0d890e (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.020 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@8a63dac (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-10 17:44:00.761 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:45:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:45:00.371 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:46:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:46:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:47:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:47:00.363 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:48:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:48:00.364 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:49:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:49:00.404 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:50:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:50:00.357 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:51:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:51:00.359 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:52:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:52:00.370 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:53:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:53:00.365 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:54:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:54:00.372 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:55:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:55:00.357 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:56:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:56:00.341 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:57:00.029 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:57:00.386 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:58:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:58:00.372 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 17:59:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 17:59:00.368 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:00:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:00:00.340 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:01:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:01:00.383 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:02:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:02:00.362 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:03:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:03:00.369 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:04:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:04:00.355 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:05:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:05:00.356 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:06:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:06:00.367 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:07:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:07:00.480 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:08:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:08:00.416 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:09:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:09:00.415 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:10:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:10:00.552 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:11:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:11:00.399 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:12:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:12:00.454 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:13:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:13:00.525 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:14:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:14:00.386 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:15:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:15:00.403 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:16:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:16:00.548 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:17:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:17:00.383 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:18:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:18:00.339 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:19:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:19:00.401 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:20:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:20:00.481 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:21:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:21:00.356 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:22:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:22:00.450 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:23:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:23:00.355 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:24:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:24:00.415 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:25:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:25:00.378 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:26:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:26:00.372 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:27:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:27:00.347 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:28:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:28:00.368 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:29:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:29:00.560 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:30:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:30:00.363 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:31:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:31:00.378 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:32:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:32:00.355 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:33:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:33:00.349 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:34:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:34:00.564 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:35:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:35:00.338 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:36:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:36:00.362 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:37:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:37:00.414 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:38:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:38:00.557 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:39:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:39:00.407 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:40:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:40:01.395 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:41:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:41:00.386 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:42:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:42:01.438 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:43:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:43:00.402 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:44:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:44:00.657 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:45:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:45:00.384 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:46:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:46:00.831 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:47:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:47:00.415 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:48:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:48:00.465 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:49:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:49:00.425 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:50:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:50:00.670 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:51:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:51:00.445 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:52:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:52:00.600 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:53:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:53:00.917 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:54:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:54:00.943 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:55:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:55:00.434 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:56:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:56:00.587 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:57:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:57:00.480 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:58:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:58:00.548 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 18:59:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 18:59:00.568 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:00:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:00:00.458 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:01:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:01:00.481 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:02:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:02:00.552 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:03:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:03:00.560 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:04:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:04:00.550 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:05:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:05:00.469 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:06:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:06:02.118 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:07:00.014 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:07:00.594 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:08:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:08:00.618 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:09:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:09:00.522 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:09:27.049 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 19:09:27.053 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 19:09:27.594 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-10 19:09:32.516 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-04-10 19:09:32.577 [main] INFO  c.e.signature.SignatureApplication - Starting SignatureApplication using Java 17.0.16 with PID 29184 (C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\target\classes started by LENOVO in C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete)
+2026-04-10 19:09:32.579 [main] INFO  c.e.signature.SignatureApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-10 19:09:33.519 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-10 19:09:33.618 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2026-04-10 19:09:34.461 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8075 (http)
+2026-04-10 19:09:34.476 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8075"]
+2026-04-10 19:09:34.478 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-10 19:09:34.479 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-10 19:09:34.565 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-10 19:09:34.567 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1918 ms
+2026-04-10 19:09:35.047 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-10 19:09:35.134 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-10 19:09:35.175 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-10 19:09:36.121 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-10 19:09:36.148 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-10 19:09:37.045 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@192f5f39
+2026-04-10 19:09:37.048 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-10 19:09:38.335 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-10 19:09:38.338 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 19:09:38.638 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-10 19:09:40.067 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8075"]
+2026-04-10 19:09:40.120 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8075 (http) with context path ''
+2026-04-10 19:09:40.156 [main] INFO  c.e.signature.SignatureApplication - Started SignatureApplication in 8.138 seconds (process running for 8.496)
+2026-04-10 19:10:00.011 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:10:00.389 [http-nio-8075-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-10 19:10:00.390 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-10 19:10:00.391 [http-nio-8075-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-10 19:10:00.786 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:11:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:11:00.555 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:12:00.018 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:12:00.490 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:13:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:13:00.450 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:14:00.028 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:14:00.415 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:15:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:15:00.520 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:16:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:16:00.652 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:17:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:17:00.555 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:18:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:18:00.473 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:19:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:19:00.762 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:20:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:20:00.467 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:21:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:21:00.450 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:22:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:22:00.558 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:23:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:23:00.456 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:24:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:24:00.582 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:25:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:25:00.623 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:26:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:26:00.478 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:27:00.019 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:27:00.525 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:28:00.013 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:28:00.457 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:29:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:29:00.458 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:30:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:30:00.770 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:31:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:31:00.478 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:32:00.000 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:32:00.525 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:33:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:33:00.535 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:34:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:34:00.494 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:35:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:35:00.476 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:36:00.007 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-10 19:36:00.596 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-10 19:36:11.025 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-10 19:36:11.027 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-10 19:36:11.683 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

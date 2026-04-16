@@ -1,4 +1,12 @@
 com\example\signature\service\XmlDigestService.class
-com\example\signature\dto\DigestComparisonResponse.class
-com\example\signature\SignatureApplication.class
+com\example\signature\Entities\Imail.class
 com\example\signature\controller\DigestController.class
+com\example\signature\service\ImailSignatureService.class
+com\example\signature\Repositories\DetailObligCautRepository.class
+com\example\signature\dto\DigestComparisonResponse.class
+com\example\signature\Entities\DetailObligCaut.class
+com\example\signature\Scheduler\SignatureScheduler.class
+com\example\signature\SignatureApplication.class
+com\example\signature\Repositories\DonneesGeneralesRepository.class
+com\example\signature\Entities\DonneesGenerales.class
+com\example\signature\Repositories\ImailRepository.class
