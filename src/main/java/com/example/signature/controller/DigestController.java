@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("/api/digest")
 public class DigestController {
 
-
     private final XmlDigestService service;
     private final ImailSignatureService imailService;
 
@@ -27,6 +26,7 @@ public class DigestController {
         return service.calculateRawFileDigest(Path.of(file));
     }
 
+    //comparaison manuellle en entrant des param
     @GetMapping("/compare")
     public DigestComparisonResponse compareDigest(
             @RequestParam Long idImail,
@@ -38,6 +38,7 @@ public class DigestController {
         );
     }
 
+    //comparaison auto
     @PostMapping("/compare-auto")
     public List<DigestComparisonResponse> compareDigestAuto() throws Exception {
         return imailService.comparePendingSignatures();

@@ -42,7 +42,7 @@ public class Imail {
     @Column(name = "READ_AT")
     private LocalDateTime readAt;
 
-    public Long getIdImail() {
+   /* public Long getIdImail() {
         return idImail;
     }
 
@@ -104,5 +104,5 @@ public class Imail {
 
     public void setReadAt(LocalDateTime readAt) {
         this.readAt = readAt;
-    }
+    }  */
 }

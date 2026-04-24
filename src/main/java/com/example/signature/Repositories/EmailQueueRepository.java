@@ -34,7 +34,6 @@ public class EmailQueueRepository {
                 ps.executeUpdate();
             }
 
-            // 🔥 récupération ID via CURRVAL
             try (Statement st = connection.createStatement();
                  ResultSet rs = st.executeQuery("SELECT SWF_MAIL.ISEQ$$_82937.CURRVAL FROM dual")) {
 

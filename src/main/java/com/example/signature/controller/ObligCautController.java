@@ -16,6 +16,7 @@ public class ObligCautController {
         this.service = service;
     }
 
+    //generation de xml et fichier .sig manuelle(avec param)
     @PostMapping("/generate/{numDem}")
     public ResponseEntity<?> generate(@PathVariable String numDem) {
         try {
@@ -27,7 +28,8 @@ public class ObligCautController {
         }
     }
 
-    // Mode batch manuel : traite tous les O06 trouvés
+    // Mode batch auto : traite tous les O06 trouvés (la solution de generation signature nous meme)
+    //on revient au plus tard
     @PostMapping("/generate-auto")
     public ResponseEntity<?> generateAuto() {
         try {

@@ -26,7 +26,11 @@ import java.util.Base64;
 import java.util.List;
 
 @Service
+
+//service pour verifier matching de xml et .sig
+// (utilisé pour reception de flux et la sol de gen nous mm les fichier (la solà adapter au plus tard)
 public class XmlDigestService {
+
 
     private static final String XMLDSIG_NS = "http://www.w3.org/2000/09/xmldsig#";
     private static final String XSLT_NS = "http://www.w3.org/1999/XSL/Transform";
@@ -107,8 +111,6 @@ public class XmlDigestService {
                 transformedXml
         );
     }
-
-
 
     /**
      * Digest brut d'un fichier XML sur disque.

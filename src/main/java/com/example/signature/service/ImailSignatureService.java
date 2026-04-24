@@ -16,6 +16,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
+//ce service pour atteindre l objectif de reception des flux O04 (tous les logiques)
+
 @Service
 public class ImailSignatureService {
     private final ImailRepository imailRepository;

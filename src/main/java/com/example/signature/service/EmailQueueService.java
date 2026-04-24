@@ -11,6 +11,8 @@ import java.io.File;
 import java.nio.file.Files;
 import java.sql.Connection;
 
+//ce service pour atteindre l objectif de envoi des flux O06 (tous les logiques)
+
 @Service
 public class EmailQueueService {
     private final DataSource dataSource;
@@ -30,8 +32,8 @@ public class EmailQueueService {
     public Long enqueueEmailWithAttachments(
             String sender,
             String recipients,
-            String cc,
-            String bcc,
+         //   String cc,
+          //  String bcc,
             String subject,
             String body,
             File xmlFile,
@@ -40,18 +42,16 @@ public class EmailQueueService {
 
         try (Connection connection = dataSource.getConnection()) {
 
-            // 🔥 TRÈS IMPORTANT
             connection.setAutoCommit(false);
 
             try {
-                // ===============================
+
                 // 1. INSERT EMAIL_QUEUE
-                // ===============================
                 EmailQueue emailQueue = new EmailQueue();
                 emailQueue.setSender(sender);
                 emailQueue.setRecipients(recipients);
-                emailQueue.setCc(cc);
-                emailQueue.setBcc(bcc);
+              //  emailQueue.setCc(cc);
+              //  emailQueue.setBcc(bcc);
                 emailQueue.setSubject(subject);
                 emailQueue.setBody(body);
                 emailQueue.setBodyMimeType("application/xml");
@@ -60,9 +60,7 @@ public class EmailQueueService {
 
                 System.out.println(">>> EMAIL_ID généré = " + emailId);
 
-                // ===============================
                 // 2. INSERT ATTACHMENT XML
-                // ===============================
                 EmailAttachment xmlAttachment = new EmailAttachment();
                 xmlAttachment.setEmailId(emailId);
                 xmlAttachment.setFilename(xmlFile.getName());
@@ -72,9 +70,7 @@ public class EmailQueueService {
 
                 emailAttachmentRepository.insert(connection, xmlAttachment);
 
-                // ===============================
                 // 3. INSERT ATTACHMENT SIG
-                // ===============================
                 EmailAttachment sigAttachment = new EmailAttachment();
                 sigAttachment.setEmailId(emailId);
                 sigAttachment.setFilename(sigFile.getName());
@@ -84,18 +80,11 @@ public class EmailQueueService {
 
                 emailAttachmentRepository.insert(connection, sigAttachment);
 
-                // ===============================
-                // 4. COMMIT
-                // ===============================
                 connection.commit();
-
                 return emailId;
 
             } catch (Exception e) {
-
-                // 🔥 rollback si erreur
                 connection.rollback();
-
                 throw e;
             }
         }

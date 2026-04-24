@@ -4,6 +4,7 @@ import com.example.signature.Entities.SignatureProperties;
 import com.example.signature.Repositories.EmailConfigRepository;
 import com.example.signature.Repositories.ObligCautRepository;
 import com.example.signature.dto.SignatureGenerationResult;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
@@ -37,6 +38,9 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Base64;
 import java.util.List;
+import java.util.Map;
+
+//ce service pour generer xml et .sig nous meme (la sol à adapter prochainement)
 
 @Service
 public class ObligCautService {
@@ -71,13 +75,14 @@ public class ObligCautService {
 
     public ObligCautService(ObligCautRepository repository, SignatureProperties properties,
                             EmailQueueService emailQueueService,
-                            EmailConfigRepository emailConfigRepository) {
+                            EmailConfigRepository emailConfigRepository
+                           ) {
         this.repository = repository;
         this.properties = properties;
         this.emailQueueService = emailQueueService;
         this.emailConfigRepository=emailConfigRepository;
-    }
-
+      }
+/// //
     public SignatureGenerationResult generateSignatureFile(String numDem) throws Exception {
         String xml = repository.getXmlFromOracle(numDem);
 
@@ -92,8 +97,12 @@ public class ObligCautService {
         String numeroMessage = extractNumeroMessage(xml);
         String sigFileName = numeroMessage + "_sig.sig";
 
-        Path xmlPath = outputDir.resolve(xmlFileName);
-        Path sigPath = outputDir.resolve(sigFileName);
+        // sous-dossier propre à la ligne
+        Path recordDir = outputDir.resolve(numDem);
+        Files.createDirectories(recordDir);
+
+        Path xmlPath = recordDir.resolve(xmlFileName);
+        Path sigPath = recordDir.resolve(sigFileName);
 
         Files.writeString(
                 xmlPath,
@@ -164,22 +173,31 @@ public class ObligCautService {
         File sigFile = sigPath.toFile();
 
         String sender = emailConfigRepository.loadSender();
-        String recipients = properties.getRecipients();
-        String cc = null;
-        String bcc = null;
         String subject = "Flux TTN signe - " + numeroMessage;
 
-        Long emailId = emailQueueService.enqueueEmailWithAttachments(
-                sender,
-                recipients,
-                cc,
-                bcc,
-                subject,
-                xml,
-                xmlFile,
-                sigFile
-        );
 
+        List<String> recipients = emailConfigRepository.loadRecipients();
+
+        if (recipients == null || recipients.isEmpty()) {
+            throw new IllegalStateException("Aucun destinataire configure dans SWF_MAIL.RECGONIZED_EMAIL_RECIPIENTS");
+        }
+
+
+        Long lastEmailId = null;
+
+        for (String recipient : recipients) {
+            Long emailId = emailQueueService.enqueueEmailWithAttachments(
+                    sender,
+                    recipient,
+                    subject,
+                    xml,
+                    xmlFile,
+                    sigFile
+            );
+
+            lastEmailId = emailId;
+            System.out.println("EMAIL_QUEUE OK pour " + recipient + ", emailId=" + emailId);
+        }
         return new SignatureGenerationResult(
                 numDem,
                 xmlPath.toString(),
@@ -188,10 +206,11 @@ public class ObligCautService {
                 digestValueTimestamp,
                 digestValueCertificate,
                 signatureValue,
-                emailId
+                lastEmailId
         );
     }
 
+    ///
     public int generateSignatureFilesAutoO06() {
         List<String> numDems = repository.findNumDemToProcessO06();
         int processedCount = 0;
@@ -204,7 +223,8 @@ public class ObligCautService {
                 }
 
                 String numeroMessage = extractNumeroMessage(xml);
-                Path sigPath = Paths.get(properties.getOutputDir(), numeroMessage + "_sig.sig");
+                Path recordDir = Paths.get(properties.getOutputDir(), numDem);
+                Path sigPath = recordDir.resolve(numeroMessage + "_sig.sig");
 
                 // anti-doublon simple : si le .sig existe déjà, on ignore
                 if (Files.exists(sigPath)) {
@@ -222,6 +242,7 @@ public class ObligCautService {
         return processedCount;
     }
 
+    ///
     private KeyMaterial loadKeyMaterial() throws Exception {
         KeyStore keyStore = KeyStore.getInstance("PKCS12");
 
@@ -270,7 +291,7 @@ public class ObligCautService {
         MessageDigest md = MessageDigest.getInstance("SHA-256");
         return Base64.getEncoder().encodeToString(md.digest(input));
     }
-
+/// ////
     private String buildTimestampXml() {
         ZonedDateTime now = ZonedDateTime.now(ZoneOffset.UTC);
         String date = now.format(DateTimeFormatter.ofPattern("dd-MM-yyyy"));
@@ -280,7 +301,7 @@ public class ObligCautService {
                 <timestamp xmlns="%s"><date>%s</date><time>%s</time></timestamp>
                 """.formatted(TIMESTAMP_NS, escapeXml(date), escapeXml(time));
     }
-
+/// //////
     private String buildSignedInfoXml(
             String xmlFileName,
             String digestValueXml,
@@ -318,7 +339,7 @@ public class ObligCautService {
                 escapeXml(digestValueCertificate)
         );
     }
-
+/// ////
     private String buildSignatureXml(
             String signedInfoXml,
             String signatureValue,
@@ -360,7 +381,7 @@ public class ObligCautService {
                 escapeXml(certificateBase64)
         );
     }
-
+/// ///
     private byte[] canonicalizeXml(String xml) throws Exception {
         Document document = parseXml(xml);
 
@@ -377,7 +398,7 @@ public class ObligCautService {
 
         return writer.toString().getBytes(StandardCharsets.UTF_8);
     }
-
+/// ///
     private Document parseXml(String xml) throws Exception {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         dbf.setNamespaceAware(true);
@@ -387,14 +408,14 @@ public class ObligCautService {
         DocumentBuilder db = dbf.newDocumentBuilder();
         return db.parse(new InputSource(new StringReader(xml)));
     }
-
+/// //
     private String signRsaSha1Base64(byte[] data, PrivateKey privateKey) throws Exception {
         Signature signature = Signature.getInstance("SHA1withRSA");
         signature.initSign(privateKey);
         signature.update(data);
         return Base64.getEncoder().encodeToString(signature.sign());
     }
-
+/// /////
     private void secureTransformerFactory(TransformerFactory factory) {
         try {
             factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
@@ -403,7 +424,7 @@ public class ObligCautService {
         } catch (Exception ignored) {
         }
     }
-
+/// /////
     private void disableExternalEntities(DocumentBuilderFactory dbf) {
         try {
             dbf.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
@@ -412,7 +433,7 @@ public class ObligCautService {
         } catch (Exception ignored) {
         }
     }
-
+/// ///
     private String breakBase64(String value) {
         if (value == null || value.isBlank()) {
             return "";
@@ -430,6 +451,7 @@ public class ObligCautService {
         return sb.toString();
     }
 
+    ///
     private String escapeXml(String value) {
         if (value == null) {
             return "";
@@ -458,10 +480,14 @@ public class ObligCautService {
         return nodeList.item(0).getTextContent();
     }
 
+    ///
     private record KeyMaterial(
             PrivateKey privateKey,
             Certificate certificate,
             java.security.interfaces.RSAPublicKey publicKey
     ) {
     }
+
+
+
 }

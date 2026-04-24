@@ -30,13 +30,6 @@ public class DetailObligCaut {
     @Column(name = "NUM_MESS_TTN")
     private String numMessTtn;
 
-    public Long getIdImail() {
-        return idImail;
-    }
-
-    public void setIdImail(Long idImail) {
-        this.idImail = idImail;
-    }
 
 }
 

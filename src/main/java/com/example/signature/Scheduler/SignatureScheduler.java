@@ -32,9 +32,9 @@ public class SignatureScheduler {
         }
     }
 
-    @Scheduled(cron = "0 * * * * *")
+   /* @Scheduled(cron = "0 * * * * *")
     public void runEveryMinute() {
         int count = obligCautService.generateSignatureFilesAutoO06();
         System.out.println("Batch auto terminé. Nombre traité = " + count);
-    }
+    } */
 }
