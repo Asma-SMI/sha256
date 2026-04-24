@@ -3,9 +3,15 @@ package com.example.signature.service;
 import com.example.signature.Repositories.EmailConfigRepository;
 import com.example.signature.Repositories.ObligCautRepository;
 import org.springframework.stereotype.Service;
+import org.w3c.dom.Document;
+import org.xml.sax.InputSource;
 
+import javax.xml.XMLConstants;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.io.IOException;
+import java.io.StringReader;
 import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.util.List;
@@ -45,19 +51,25 @@ public class ReceptionProcessingService {
         }
 
         for (File folder : folders) {
-            String numDos = folder.getName();
+
+            String folderName = folder.getName();
 
             try {
                 System.out.println("==== TRAITEMENT RECEPTION ====");
-                System.out.println("numDos = " + numDos);
+                System.out.println("Dossier physique = " + folderName);
 
                 File xmlFile = findFirstXmlOrMainFile(folder);
                 File sigFile = findSigFile(folder);
 
                 if (xmlFile == null || sigFile == null) {
-                    System.out.println("XML ou SIG manquant pour numDos=" + numDos);
+                    System.out.println("XML ou SIG manquant pour dossier=" + folderName);
                     continue;
                 }
+
+                String xmlContent = Files.readString(xmlFile.toPath());
+                String numDos = extractNumDosFromXml(xmlContent);
+
+                System.out.println("NUM_DOS extrait XML = " + numDos);
 
                 Map<String, Object> row = obligCautRepository.findPendingO06ByNumDos(numDos);
 
@@ -91,8 +103,7 @@ public class ReceptionProcessingService {
                 String subject = "Flux " + codTypDoc + " - NUM_DOS " + numDos;
                 String body = obligCautRepository.getXmlFromOracle(numDemTtn);
 
-                // 1. Copier vers traites, sans supprimer reception
-                File targetFolder = new File(treatedRoot, numDos);
+                File targetFolder = new File(treatedRoot, folderName);
 
                 if (targetFolder.exists()) {
                     deleteRecursively(targetFolder);
@@ -100,7 +111,6 @@ public class ReceptionProcessingService {
 
                 copyDirectory(folder, targetFolder);
 
-                // 2. Recalculer les fichiers dans traites
                 File xmlFileFinal = new File(targetFolder, xmlFile.getName());
 
                 File sigFileFinal;
@@ -113,7 +123,6 @@ public class ReceptionProcessingService {
                     sigFileFinal = new File(targetFolder, sigFile.getName());
                 }
 
-                // 3. Insérer EMAIL_QUEUE avec FILE_LOCATION final = traites
                 for (String recipient : recipients) {
                     Long emailId = emailQueueService.enqueueEmailWithAttachments(
                             sender,
@@ -127,17 +136,15 @@ public class ReceptionProcessingService {
                     System.out.println("EMAIL_QUEUE OK pour " + recipient + ", emailId = " + emailId);
                 }
 
-                // 4. Update statut uniquement après succès des insertions email
                 obligCautRepository.updateStatusToE(idFlux);
 
-                // 5. Supprimer reception uniquement après succès complet
                 deleteRecursively(folder);
 
-                System.out.println("Dossier traite avec succes : " + numDos);
+                System.out.println("Dossier traite avec succes : " + folderName);
 
             } catch (Exception e) {
                 e.printStackTrace();
-                // Important : si erreur, on garde le dossier dans reception
+                // En cas d'erreur, le dossier reste dans reception
             }
         }
     }
@@ -184,6 +191,24 @@ public class ReceptionProcessingService {
         return null;
     }
 
+    private String extractNumDosFromXml(String xml) throws Exception {
+        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        dbf.setNamespaceAware(true);
+        dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
+        disableExternalEntities(dbf);
+
+        DocumentBuilder db = dbf.newDocumentBuilder();
+        Document doc = db.parse(new InputSource(new StringReader(xml)));
+
+        var nodeList = doc.getElementsByTagName("NUMERO_DOSSIER");
+
+        if (nodeList.getLength() == 0) {
+            throw new IllegalStateException("NUMERO_DOSSIER introuvable dans le XML");
+        }
+
+        return nodeList.item(0).getTextContent().trim();
+    }
+
     private void copyDirectory(File source, File target) throws IOException {
         if (source.isDirectory()) {
             if (!target.exists() && !target.mkdirs()) {
@@ -220,5 +245,14 @@ public class ReceptionProcessingService {
         }
 
         file.delete();
+    }
+
+    private void disableExternalEntities(DocumentBuilderFactory dbf) {
+        try {
+            dbf.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+            dbf.setFeature("http://xml.org/sax/features/external-general-entities", false);
+            dbf.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+        } catch (Exception ignored) {
+        }
     }
 }
