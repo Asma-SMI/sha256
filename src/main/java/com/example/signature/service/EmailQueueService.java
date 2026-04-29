@@ -11,7 +11,7 @@ import java.io.File;
 import java.nio.file.Files;
 import java.sql.Connection;
 
-//ce service pour atteindre l objectif de envoi des flux O06 (tous les logiques)
+//ce service pour atteindre l objectif de envoi des flux O04 (tous les logiques)
 
 @Service
 public class EmailQueueService {
@@ -61,14 +61,14 @@ public class EmailQueueService {
                 System.out.println(">>> EMAIL_ID généré = " + emailId);
 
                 // 2. INSERT ATTACHMENT XML
-                EmailAttachment xmlAttachment = new EmailAttachment();
+               /* EmailAttachment xmlAttachment = new EmailAttachment();
                 xmlAttachment.setEmailId(emailId);
                 xmlAttachment.setFilename(xmlFile.getName());
                 xmlAttachment.setFileData(Files.readAllBytes(xmlFile.toPath()));
                 xmlAttachment.setMimeType("application/xml");
                 xmlAttachment.setFileLocation(xmlFile.getAbsolutePath());
 
-                emailAttachmentRepository.insert(connection, xmlAttachment);
+                emailAttachmentRepository.insert(connection, xmlAttachment); */
 
                 // 3. INSERT ATTACHMENT SIG
                 EmailAttachment sigAttachment = new EmailAttachment();

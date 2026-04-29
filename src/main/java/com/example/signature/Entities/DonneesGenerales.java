@@ -21,5 +21,5 @@ public class DonneesGenerales {
     private Long id;
 
     @Column(name = "PATH_SCAN_AS")
-    private String pathScanUs;
+    private String pathScanAs;
 }

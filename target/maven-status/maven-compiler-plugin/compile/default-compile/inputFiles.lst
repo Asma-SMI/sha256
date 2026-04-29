@@ -1,12 +1,26 @@
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\DetailObligCautRepository.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\DonneesGeneralesRepository.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Scheduler\SignatureScheduler.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\Imail.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\ImailRepository.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\controller\DigestController.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\DonneesGenerales.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\dto\DigestComparisonResponse.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\XmlDigestService.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\ImailSignatureService.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\SignatureApplication.java
-C:\Users\LENOVO\Desktop\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\DetailObligCaut.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\Imail.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\EmailConfigRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\EmailAttachmentRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\SignatureProperties.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\DetailObligCaut.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\DetailObligCautRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\EmailQueueService.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\ImailRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\ObligCautService.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\controller\ProcessReceptionController.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\ObligCautRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\ImailSignatureService.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\controller\ObligCautController.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\SignatureApplication.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\XmlDigestService.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\EmailQueueRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\service\ReceptionProcessingService.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\dto\DigestComparisonResponse.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Repositories\DonneesGeneralesRepository.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\DonneesGenerales.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\controller\UploadController.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\controller\DigestController.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\EmailQueue.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Scheduler\SignatureScheduler.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\Entities\EmailAttachment.java
+C:\Users\LENOVO\Desktop\MES projets\Projet Signature\xml-signature-springboot-complete\src\main\java\com\example\signature\dto\SignatureGenerationResult.java

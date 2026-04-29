@@ -38,7 +38,7 @@ public class ObligCautRepository {
         String sql = """
                 SELECT NUM_DEM_TTN
                 FROM %s
-                WHERE COD_TYP_DOC = 'O06'
+                WHERE COD_TYP_DOC = 'O04'
                   AND NUM_DEM_TTN IS NOT NULL
                 ORDER BY NUM_DEM_TTN
                 """.formatted(sourceTable);
@@ -47,12 +47,12 @@ public class ObligCautRepository {
     }
 
     //pour notre sol presente
-    public Map<String, Object> findPendingO06ByNumDos(String numDos) {
+    public Map<String, Object> findPendingO04ByNumDos(String numDos) {
         String sql = """
             SELECT ID_FLUX, NUM_DOSS_TTN, NUM_DEM_TTN, COD_TYP_DOC, STATUS, NUM_MESS_TTN
             FROM TTN.DETAIL_OBLIG_CAUT
             WHERE NUM_DOSS_TTN = ?
-              AND COD_TYP_DOC = 'O06'
+              AND COD_TYP_DOC = 'O04'
               AND STATUS = 'B'
             FETCH FIRST 1 ROWS ONLY
             """;

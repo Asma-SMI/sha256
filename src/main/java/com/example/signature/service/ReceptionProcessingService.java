@@ -1,5 +1,6 @@
 package com.example.signature.service;
 
+import com.example.signature.Repositories.DonneesGeneralesRepository;
 import com.example.signature.Repositories.EmailConfigRepository;
 import com.example.signature.Repositories.ObligCautRepository;
 import org.springframework.stereotype.Service;
@@ -24,21 +25,27 @@ public class ReceptionProcessingService {
     private final ObligCautRepository obligCautRepository;
     private final EmailQueueService emailQueueService;
     private final EmailConfigRepository emailConfigRepository;
+    private final DonneesGeneralesRepository donneesGeneralesRepository;
 
     public ReceptionProcessingService(
             ObligCautRepository obligCautRepository,
             EmailQueueService emailQueueService,
-            EmailConfigRepository emailConfigRepository
+            EmailConfigRepository emailConfigRepository,
+            DonneesGeneralesRepository donneesGeneralesRepository
     ) {
         this.obligCautRepository = obligCautRepository;
         this.emailQueueService = emailQueueService;
         this.emailConfigRepository = emailConfigRepository;
+        this.donneesGeneralesRepository = donneesGeneralesRepository;
     }
 
     public void processReceptionFolders() {
 
-        File receptionRoot = new File("C:/messages/reception");
-        File treatedRoot = new File("C:/messages/traites");
+      //  File receptionRoot = new File("C:/messages/reception");
+      //  File treatedRoot = new File("C:/messages/traites");
+        String basePath = donneesGeneralesRepository.findPathScanAs().trim();
+        File receptionRoot = new File(basePath, "reception");
+        File treatedRoot = new File(basePath, "traites");
 
         if (!treatedRoot.exists()) {
             treatedRoot.mkdirs();
@@ -72,10 +79,10 @@ public class ReceptionProcessingService {
 
                 System.out.println("NUM_DOS extrait XML = " + numDos);
 
-                Map<String, Object> row = obligCautRepository.findPendingO06ByNumDos(numDos);
+                Map<String, Object> row = obligCautRepository.findPendingO04ByNumDos(numDos);
 
                 if (row == null) {
-                    System.out.println("Aucun DETAIL_OBLIG_CAUT O06 en statut B pour numDos=" + numDos);
+                    System.out.println("Aucun DETAIL_OBLIG_CAUT O04 en statut B pour numDos=" + numDos);
                     continue;
                 }
 

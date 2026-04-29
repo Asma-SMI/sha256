@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface DonneesGeneralesRepository extends JpaRepository<DonneesGenerales, Long> {
 
-    @Query("select d.pathScanUs from DonneesGenerales d")
-    String findPathScanUs();
+    @Query("select d.pathScanAs from DonneesGenerales d")
+    String findPathScanAs();
 }

@@ -57,10 +57,10 @@ public class ImailSignatureService {
 
     @Transactional
     public List<DigestComparisonResponse> comparePendingSignatures() throws Exception {
-        String basePath = donneesGeneralesRepository.findPathScanUs();
+        String basePath = donneesGeneralesRepository.findPathScanAs();
 
         if (basePath == null || basePath.isBlank()) {
-            throw new IllegalStateException("PATH_SCAN_US introuvable dans DONNES_GENERALES");
+            throw new IllegalStateException("PATH_SCAN_AS introuvable dans DONNES_GENERALES");
         }
 
         Path ttnDirectory = Path.of(basePath, "ttn");
