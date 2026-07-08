@@ -1,1 +1,142 @@
 2026-04-29 01:23:41.128 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h38m34s111ms501µs900ns).
+2026-04-29 08:43:28.214 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:43:28.214 [scheduling-1] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@169e3551 (Connexion interrompue). Possibly consider using a shorter maxLifetime value.
+2026-04-29 08:43:28.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:43:28.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:43:28.818 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:43:35.281 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h19m59s102ms391µs300ns).
+2026-04-29 08:44:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:44:00.217 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:44:00.217 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:44:00.598 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:44:58.441 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:44:58.878 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:44:58.878 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:44:59.041 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:46:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:46:00.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:46:00.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:46:00.596 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:47:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:47:00.445 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:47:00.445 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:47:00.603 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:48:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:48:00.443 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:48:00.443 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:48:00.617 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:49:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:49:00.223 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:49:00.223 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:49:00.606 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:50:00.016 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:50:00.452 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:50:00.452 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:50:00.614 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:51:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:51:00.442 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:51:00.442 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:51:00.619 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:52:00.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:52:00.223 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:52:00.223 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:52:00.584 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:53:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:53:00.216 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:53:00.216 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:53:00.600 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:54:00.015 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:54:00.445 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:54:00.445 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:54:00.606 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:55:00.006 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:55:00.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:55:00.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:55:00.611 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:56:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:56:00.215 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:56:00.215 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:56:00.600 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:57:00.020 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:57:00.450 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:57:00.450 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:57:00.609 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:58:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:58:00.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 08:58:00.436 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:58:00.612 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:59:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 08:59:00.320 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 08:59:00.320 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 08:59:00.796 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:00:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:00:00.440 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:00:00.440 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:00:00.607 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:01:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:01:00.434 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:01:00.434 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:01:00.609 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:02:00.008 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:02:00.790 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:02:00.791 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:02:02.330 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:03:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:03:02.526 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:03:02.526 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:03:08.302 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:04:00.003 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:04:09.093 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:04:09.093 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:04:10.005 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:05:00.017 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:05:02.327 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:05:02.327 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:05:03.029 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:06:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:06:01.179 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:06:01.179 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:06:02.898 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:07:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:07:02.213 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:07:02.213 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:07:03.070 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:08:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:08:00.337 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:08:00.337 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:08:00.979 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:09:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:09:00.498 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:09:00.498 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:09:00.713 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:10:00.012 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:10:00.656 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:10:00.656 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:10:00.854 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:11:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:11:01.110 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:11:01.110 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:11:01.417 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:12:00.010 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:12:00.819 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:12:00.819 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:12:01.836 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:13:00.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:13:01.153 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:13:01.153 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:13:02.743 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:14:00.001 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:14:02.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:14:02.004 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:14:03.907 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:15:00.009 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:15:00.962 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:15:00.962 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:15:02.819 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:16:00.002 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Début traitement automatique reception ===
+2026-04-29 09:16:00.902 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - === Fin traitement reception ===
+2026-04-29 09:16:00.902 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Début traitement automatique des signatures...
+2026-04-29 09:16:02.572 [scheduling-1] INFO  c.e.s.Scheduler.SignatureScheduler - Fin traitement signatures
+2026-04-29 09:16:48.253 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 09:16:48.260 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-29 09:16:49.187 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
